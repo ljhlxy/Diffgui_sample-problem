@@ -10,3 +10,4 @@ Vina分数异常根本原因是 meeko 和 openbabel 版本不兼容。为了避�
 - 移除了 from openbabel import pybel 导入
 - 将 PrepLig 类改为使用 RDKit 处理分子
 - 读取 SDF 时使用 Chem.SDMolSupplier(input_mol, removeHs=False) 保留氢原子
+修改后的docking_vina.py已经提供，替换掉原本的即可
